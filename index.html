@@ -4,20 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="card">
         <div class="search">
-            <input type="text" placeholder="City Name">
-            <button><img src="search.jpg" height="15px"></button>
+            <input type="text" placeholder="Enter City Name">
+            <button><img src="search.jpg" height="35px"></button> 
         </div>
         <div class="weather">
-            <div class="image">
-                <img src="" alt="">
-                <p>City Name</p>
-                <p>20°C</p>
+            <img src="weather.png" class="imgIcon" >
+            <h1 class="temp">22°C</h1>
+            <h2 class="cityName">Maharashtra</h2>
+        </div>
+        <div class="details">
+            <div class="col">
+                <img src="humidity0.png" height="100px" >
+                <div>
+                    <p class="humidity">50% </p>
+                    <p>Humidity</p>
+                </div>
             </div>
-            
+            <div class="col">
+                <img src="wind0.png" height="100px">
+                <div>
+                    <p class="wind">15 km/h </p>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
         </div>
     </div>
 </body>
